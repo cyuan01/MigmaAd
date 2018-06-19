@@ -1,0 +1,307 @@
+
+/* Chadd Yuan 
+ * Jun 19, 2018
+ * MigmaAd style.css
+ */
+
+/********************************************/
+/************** navbar styling **************/
+
+.navbar a {
+  padding-left:5px;
+  font-size: 20px;
+	color: #7a7a7a;
+}
+
+.navbar a:hover {
+	color: #565656;
+}
+
+.navbar-default {
+  z-index: 500;
+  width: 100%;
+  position: sticky;
+  background-color:white;
+
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+ }
+
+ .navbar-custom {
+  background-color: white;
+  color:black;
+ }
+
+ .navbar-brand a {
+  padding-left: 5%;
+ }
+
+ .drop_custom {
+  background-color: white;
+ }
+
+ /******************************************/
+ /************ footer styling **************/
+
+ .page-footer {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  background-color: #f90c0b;
+  color: white;
+}
+
+/******************************************/
+/********** Section title styling *********/
+
+.grey_header {
+  color: #7a7a7a;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.banner_text {
+  animation: fadeIn 2s;
+  text-align: center;
+  color: white;
+  margin: 4%;
+  font-size: 50px;
+}
+
+/******************************************/
+/*********** index.html styling ***********/
+
+.about {
+padding-top: 5%;
+padding-left: 5%;
+color: #669999;
+}
+
+.slides img {
+  display: block;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.meet_migma {
+  animation: fadeIn 6s;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -280%);
+}
+
+.subtext {
+  animation: fadeIn 4.5s;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -330%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.text {
+  background-color: #f2f2f2;
+  padding-bottom: 5%;
+}
+
+/*****************************************/
+/******* styling for support.html ********/
+
+.support {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.email {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+.grey_text {
+  background-color: #F2f2f2;
+  color:#7a7a7a;
+  padding: 20px 40px;
+}
+/*****************************************/
+/******* styling for setup.html **********/
+
+.setup0 {
+  font-size: 70px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.setup1 {
+  color: #7a7a7a;
+  text-align: center;
+}
+
+.setup2 {
+  padding-left: 10%;
+  text-align: left;
+}
+
+.num_list_center {
+  width: 20px;
+  padding-bottom: 10px;
+  padding-top:10px
+}
+
+.num_list_left {
+  width: 30px;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-right: 10px;
+}
+
+/**************************************************************/
+/******* Style reformating for different screen sizes *********/
+/******* Only tested on laptop 13" display ********************/
+
+@media screen and (max-width: 640px) {
+
+    .meet_migma {
+      font-size: 35px;
+      transform: translate(-50%, -150%);
+    }
+
+    .subtext {
+      font-size: 20px;
+      transform: translate(-50%, -130%);
+    }
+
+    .setup0 {
+      font-size: 25px;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+    .navbar-default {
+      position:static;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 810px) {
+
+    .meet_migma {
+      font-size: 35px;
+      transform: translate(-50%, -220%);
+    }
+
+    .subtext {
+      font-size: 20px;
+      transform: translate(-50%, -215%);
+    }
+
+    .setup0 {
+      font-size: 40px;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 811px) and (max-width: 1059px) {
+
+    .meet_migma {
+      font-size: 60px;
+      transform: translate(-50%, -200%);
+    }
+
+    .subtext {
+      font-size: 35px;
+      transform: translate(-50%, -205%);
+    }
+
+    .setup0 {
+      font-size: 60px;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 1060px) and (max-width: 1236px) {
+
+    .meet_migma {
+      font-size: 60px;
+      transform: translate(-50%, -240%);
+    }
+
+    .subtext {
+      font-size: 35px;
+      transform: translate(-50%, -268%);
+    }
+}
+
+
+.home_icon {
+    width:70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+/******************************************************************/
+
+/* carousel fade style */
+/*
+
+.carousel-fade .carousel-inner .carousel-item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+*/
+
+

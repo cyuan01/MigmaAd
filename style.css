@@ -185,6 +185,18 @@ color: #669999;
 /******* Style reformating for different screen sizes *********/
 /******* Only tested on laptop 13" display ********************/
 
+@media screen and (mid-width: 450px) and (max-width: 510px) {
+
+    .meet_migma {
+      font-size: 30px;
+      transform: translate(-50%, -120%);
+    }
+
+    .subtext {
+      font-size: 0px;
+    }
+}
+
 @media screen and (max-width: 510px) {
 
     .meet_migma {

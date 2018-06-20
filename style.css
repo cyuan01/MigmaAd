@@ -197,38 +197,16 @@ color: #669999;
     }
 }
 
-@media screen and (min-width: 450px) and (max-width: 510px) {
+@media screen and (min-width: 450px) and (max-width: 640px) {
 
     .meet_migma {
       font-size: 25px;
-      transform: translate(-50%, -150%);
+      transform: translate(-50%, -180%);
     }
 
     .subtext {
       font-size: 15px;
-      transform: translate(-50%, -130%);
-    }
-}
-
-@media screen and (min_width: 511px) and (max-width: 640px) {
-
-    .meet_migma {
-      font-size: 35px;
-      transform: translate(-50%, -150%);
-    }
-
-    .subtext {
-      font-size: 20px;
-      transform: translate(-50%, -130%);
-    }
-
-    .setup0 {
-      font-size: 25px;
-
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -165%);
     }
 }
 
